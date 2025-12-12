@@ -2,6 +2,9 @@
 Django
 djangorestframework
 
+# CORS Handling (REQUIRED for running the API from a different domain/port)
+django-cors-headers
+
 # JWT Authentication and dependencies (Versions used during resolution)
 djangorestframework-simplejwt~=5.5.0
 PyJWT==2.8.0
