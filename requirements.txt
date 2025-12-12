@@ -1,0 +1,13 @@
+# Django and DRF Core
+Django
+djangorestframework
+
+# JWT Authentication and dependencies (Versions used during resolution)
+djangorestframework-simplejwt~=5.5.0
+PyJWT==2.8.0
+
+# PostgreSQL Database Adapter
+psycopg2-binary
+
+# For managing environment variables (Best Practice)
+django-environ
