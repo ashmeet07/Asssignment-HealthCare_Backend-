@@ -1,0 +1,176 @@
+{
+  "info": {
+    "_postman_id": "e1981462-6761-40ff-bb7d-3efb41f1bfea",
+    "name": "healthcare_api_test",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Register User",
+      "id": "3ea4c108-42ab-4afa-8e4b-5f4ef0526bea",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"name\": \"Test User\",\r\n    \"email\": \"te@gmail.com\",\r\n    \"password\": \"SecurePassword1!\",\r\n    \"password2\": \"SecurePassword1!\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8000/api/auth/register/",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8000",
+          "path": [
+            "api",
+            "auth",
+            "register",
+            ""
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Login & Get Token",
+      "id": "ba7595bb-43ab-4771-9270-d3c614931446",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "Create Doctor",
+      "id": "55d2e6ab-7930-483f-88c7-84528a56b67b",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "List All Doctors",
+      "id": "9d7d2e85-a120-4f5f-aca1-2b187ff0432c",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "Get Doctor Details",
+      "id": "1a22d734-9f0d-4ce7-ab68-99fb94b10062",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "Update Doctor",
+      "id": "126bb00f-c45b-41ef-8ca6-1831927c9853",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "Delete Doctor",
+      "id": "633a766d-a763-43e1-b552-13b083581b98",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "Create Patient",
+      "id": "a0bf2246-aff7-408e-ab56-218c70ebde16",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "List My Patients",
+      "id": "dbe22b71-378a-4e30-adef-11ba6831ea05",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "Get Patient Details",
+      "id": "58fd6e28-faca-43a2-a812-d08724171ca8",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "Update Patient",
+      "id": "d880acb4-2336-4021-98e6-e3aeab2a301b",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "Delete Patient",
+      "id": "4f21a392-1137-4219-a8e7-546af6a77710",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "Assign Doctor to Patient",
+      "id": "764003c3-ab91-492e-8336-67db1a1fe829",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "List All Mappings",
+      "id": "fe9dfb54-202b-4157-b8a6-cac30a8c38fa",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "List Doctors by Patient",
+      "id": "f7517ac6-ad57-4670-8b80-40e138dec3ad",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "Delete Mapping",
+      "id": "6981f35b-e32a-4d48-a1c2-f590a8de026f",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    }
+  ]
+}
